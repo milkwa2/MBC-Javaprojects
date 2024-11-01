@@ -27,7 +27,7 @@ public class ScannerEx {
 		boolean b = scan.hasNextBoolean();
 		System.out.println("boolean 포함 여부 : " + b);
 		
-		scan.nextLine();
+		
 		// scan.nextInt() => 정수를 입력받아서 반환
 		System.out.print("nextInt> ");
 		int i = scan.nextInt();

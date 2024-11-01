@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class ArrayQuiz2 {
 
 	public static void main(String[] args) {
-		// 다음 numarr의 값들의 총합과 평균을 구해서 출력해보세요
+		// 다음 numArr의 값들의 총합과 평균을 구해서 출력해보세요
 		
 		int[][] numArr= {
 				{5,5,5,5,5},
