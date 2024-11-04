@@ -6,6 +6,8 @@ public class Person {
 	public int age;
 	public double tall;
 	
+	
+
 	public void info() {
 		System.out.println(name);
 		System.out.println(age+" 살");

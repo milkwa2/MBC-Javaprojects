@@ -13,7 +13,7 @@ public class Customer {
 	// 생략(기본 생성자 -> Customer() {};)
 	public Customer () {}
 	
-	public Customer (String name,String gender,String email, int birth) {
+	public Customer (String name,String gender,String email, int birth) {//오버로드
 		this.name = name;
 		this.gender = gender;
 		this.email = email;

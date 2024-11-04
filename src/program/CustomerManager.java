@@ -116,6 +116,8 @@ public class CustomerManager {
       System.out.print("출생년도 : ");
       int birthYear = scan.nextInt();
       
+      
+      
       // 고객 정보를 배열에 저장
       nameList[count] = name;
       genderList[count] = gender;
