@@ -16,11 +16,15 @@ public class Employee extends Person {
 		this.department = department;
 		
 	}
+	public void working() {
+		System.out.println(name +"이 일을 합니다.");
+	
+		
+	}
 	@Override
 	public String info() {
-		return "이름 : " + name + ", 마이 : "+age + ", 부서 : " +department;
+		return "이름 : " + name + ", 나이 : "+age + ", 부서 : " +department;
 	}
-	
 	
 	
 	
